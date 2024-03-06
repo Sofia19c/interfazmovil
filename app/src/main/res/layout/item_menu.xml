@@ -48,7 +48,7 @@
                 android:id="@+id/BotonMenu"
                 android:layout_width="70dp"
                 android:layout_height="35dp"
-                android:backgroundTint="@color/black"
+                android:backgroundTint="@color/celeste"
                 android:textSize="12sp"
                 android:text="@string/Ver"
                 app:layout_constraintBottom_toBottomOf="parent"
