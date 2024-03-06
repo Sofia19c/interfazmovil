@@ -1,4 +1,4 @@
-package com.example.talleruno
+package co.edu.javeriana.proyecto
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

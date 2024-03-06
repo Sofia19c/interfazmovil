@@ -1,11 +1,10 @@
-package com.example.talleruno
+package co.edu.javeriana.proyecto
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.example.talleruno.databinding.ActivityAjustesBinding
-import com.example.talleruno.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
+import co.edu.javeriana.proyecto.databinding.ActivityAjustesBinding
 
 class AjustesActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAjustesBinding

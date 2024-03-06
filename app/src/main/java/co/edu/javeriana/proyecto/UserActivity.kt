@@ -1,8 +1,8 @@
-package com.example.talleruno
+package co.edu.javeriana.proyecto
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.talleruno.databinding.ActivityUserBinding
+import co.edu.javeriana.proyecto.databinding.ActivityUserBinding
 
 class UserActivity : AppCompatActivity() {
     private lateinit var binding: ActivityUserBinding
