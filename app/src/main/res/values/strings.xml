@@ -11,4 +11,16 @@
     <string name="Políticas_de_privacidad">Políticas de privacidad</string>
     <string name="Evalúa_esta_app">Evalúa esta app</string>
     <string name="Comparte_esta_app">Comparte esta app</string>
+    <string name="Menus">Menús</string>
+    <string name="Resenas">Reseñas</string>
+    <string name="Fotos">Fotos</string>
+    <string name="SalchipapaEspecial">Salchipapa Especial</string>
+    <string name="LimonadaCoco">Limonada de Coco</string>
+    <string name="PizzaMediana">Pizza Mediana</string>
+    <string name="PorJuan">Por: Juan Villamil</string>
+    <string name="Reseña">¡Fue una gran experiencia! Definitivamente recomiendo este lugar, la atención es fabulosa, y el ambiente es bastante acogedor</string>
+    <string name="Editar">Editar</string>
+    <string name="Ver">Ver</string>
+    <string name="VerTodas">Ver Todas</string>
+    <string name="AñadirEditar">Añadir o Editar</string>
 </resources>
