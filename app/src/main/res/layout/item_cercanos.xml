@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="310dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="280dp"
+            android:layout_height="290dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/TituloCercanoUno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/la_hamburgueseria"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/DescripcionCercanoUno"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:text="@string/DescripcionCercano"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/TituloCercanoUno" />
+
+            <ImageView
+                android:id="@+id/ImgCercano"
+                android:layout_width="200dp"
+                android:layout_height="160dp"
+                android:background="@drawable/imgresena"
+                app:layout_constraintBottom_toTopOf="@+id/BotonCercanoUno"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/DescripcionCercanoUno" />
+
+            <Button
+                android:id="@+id/BotonCercanoUno"
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/ver_menu"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <Button
+                android:id="@+id/BotonCercanoDos"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/ver_ruta"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

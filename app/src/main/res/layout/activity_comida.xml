@@ -45,7 +45,8 @@
             android:layout_weight="1"
             android:text="@string/Menus"
             android:textStyle="bold"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            android:textColor="#000000"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -77,7 +78,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/SalchipapaEspecial"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
             <Button
                 android:layout_width="80dp"
                 android:layout_height="40dp"
@@ -105,7 +107,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/LimonadaCoco"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <Button
                 android:layout_width="80dp"
@@ -131,7 +134,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/PizzaMediana"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
             <Button
                 android:layout_width="80dp"
                 android:layout_height="40dp"
@@ -155,7 +159,8 @@
             android:layout_weight="1"
             android:text="@string/Resenas"
             android:textStyle="bold"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            android:textColor="#000000"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -186,7 +191,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/PorJuan"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -199,7 +205,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="20dp"
                     android:text="@string/Reseña"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:textColor="#000000"/>
 
                 <ImageView
                     android:layout_width="100dp"
@@ -222,7 +229,8 @@
             android:layout_weight="1"
             android:text="@string/Fotos"
             android:textStyle="bold"
-            android:textSize="30dp"/>
+            android:textSize="30dp"
+            android:textColor="#000000"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

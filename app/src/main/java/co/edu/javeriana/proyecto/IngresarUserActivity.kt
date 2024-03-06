@@ -16,7 +16,7 @@ class IngresarUserActivity : AppCompatActivity() {
 
         binding.botoningreso.setOnClickListener {
             Log.i("Hola","Presioné el boton")
-            val intento1 = Intent(this, ComidaActivity::class.java)
+            val intento1 = Intent(this, ComidasActivity::class.java)
             startActivity(intento1)
         }
     }

@@ -23,4 +23,14 @@
     <string name="Ver">Ver</string>
     <string name="VerTodas">Ver Todas</string>
     <string name="AñadirEditar">Añadir o Editar</string>
+    <string name="lo_que_va_despues">Lo que va despues</string>
+    <string name="comidas">Comidas</string>
+    <string name="cerca_de_ti">Cerca de tí</string>
+    <string name="ver_todo">Ver todo</string>
+    <string name="ver_menu">Ver Menú</string>
+    <string name="ver_ruta">Ver Ruta</string>
+    <string name="la_hamburgueseria">La Hamburguesería</string>
+    <string name="DescripcionCercano">Restaurante de Comidas Rápidas con una gran variedad de opciones, entre papas, entradas, y diversas hamburguesas para todos los gustos</string>
+    <string name="resenatitulo">Reseña</string>
+    <string name="anadir_resena">Añadir Reseña</string>
 </resources>
