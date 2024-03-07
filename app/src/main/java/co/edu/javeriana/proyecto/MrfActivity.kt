@@ -1,7 +1,9 @@
 package co.edu.javeriana.proyecto
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
 import co.edu.javeriana.proyecto.databinding.ActivityMrfBinding
 
@@ -13,6 +15,12 @@ class MrfActivity : AppCompatActivity() {
         val view = binding.root
         setContentView(view)
 
+
+        binding.botonajustes.setOnClickListener {
+            Log.i("Hola","Presioné el boton")
+            val intento1 = Intent(this, AjustesActivity::class.java)
+            startActivity(intento1)
+        }
         val menuList = listOf(
             MenuClass(R.drawable.salchipapa, "Salchipapa Especial","Ver"),
             MenuClass(R.drawable.limonadacoco, "Limonada de Coco","Ver"),
